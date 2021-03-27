@@ -31,6 +31,7 @@
         <hutool.version>5.5.8</hutool.version>
         <feign.version>2.2.6.RELEASE</feign.version>
         <feign-okhttp.version>11.0</feign-okhttp.version>
+        <jaxb-api.version>2.3.0</jaxb-api.version>
     </properties>
 	
     <!-- 依赖声明 -->
@@ -146,7 +147,11 @@
                 <artifactId>feign-okhttp</artifactId>
                 <version>${feign-okhttp.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>${jaxb-api.version}</version>
+            </dependency>
             <!-- 定时任务-->
             <dependency>
                 <groupId>com.ruoyi</groupId>
